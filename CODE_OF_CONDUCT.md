@@ -1,47 +1,42 @@
-# Simple Interest Calculator
 
-## Description
-This repository contains a simple interest calculator script. Simple interest is a quick and easy method of calculating the interest charge on a loan or investment. It is determined by multiplying the initial principal amount by the interest rate and the time period.
+# Contributor Covenant Code of Conduct
 
-## Formula
-The mathematical formula to calculate simple interest is:
+## Our Pledge
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
-**I = P * R * T**
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-Where:
-* **I** = Interest amount
-* **P** = Principal amount (the initial amount of money)
-* **R** = Annual interest rate (in decimal format)
-* **T** = Time (in years)
+## Our Standards
+Examples of behavior that contributes to a positive environment for our community include:
+* Demonstrating empathy and kindness toward other people.
+* Being respectful of differing opinions, viewpoints, and experiences.
+* Giving and gracefully accepting constructive feedback.
+* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience.
+* Focusing on what is best for the overall community, not just for ourselves.
 
-## Example Calculation
-Let's say you invest **$1,000** at an annual interest rate of **5%** for **3 years**.
+Examples of unacceptable behavior include:
+* The use of sexualized language or imagery, and unwelcome sexual attention or advances.
+* Trolling, insulting or derogatory comments, and personal or political attacks.
+* Public or private harassment.
+* Publishing others' private information, such as a physical or email address, without their explicit permission.
+* Other conduct which could reasonably be considered inappropriate in a professional setting.
 
-* P = 1000
-* R = 0.05 (which is 5 / 100)
-* T = 3
+## Enforcement Responsibilities
+Project leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-Calculation:
-`1000 * 0.05 * 3 = 150`
+Project leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-The simple interest accumulated after 3 years would be **$150**.
+## Scope
+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces.
 
-## Code Snippet
-This project uses a Bash script (`simple-interest.sh`) to perform the calculation automatically. Here is a snippet demonstrating its core functionality:
+## Reporting
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainer at **shadou09090@github.com**. All complaints will be reviewed and investigated promptly and fairly.
 
-```bash
-#!/bin/bash
-# A simple script to calculate simple interest
 
-echo "Enter the principal:"
-read p
-echo "Enter rate of interest per year:"
-read r
-echo "Enter time period in years:"
-read t
 
-# Calculate simple interest
-s=$(echo "$p * $t * $r / 100" | bc)
 
-echo "The simple interest is: "
-echo $s
+
+
+
+
+
