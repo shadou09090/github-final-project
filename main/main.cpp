@@ -34,6 +34,7 @@ int main() {
     grafo[2].push_back(3);
     grafo[3].push_back(1);
     grafo[3].push_back(5);
+    cout <<"hola";
 
     for (int i = 0; i < n; i++) {
         if (!visitado[i]) {
